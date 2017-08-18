@@ -1,0 +1,93 @@
+body { /*TROCA FAMILIA DE FONTES, ESCOLHE A 1ª DISPONIVEL NO S.O DO USUÁRIO*/
+/*background: #FFF1D6 url(images/noise.png); /*Insere imagens no fundo do estilo CSS com background*/
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+line-height: 1.6; /*Indica para a altura das linhas ficarem com 160% da altura da fonte */
+}
+
+.container{ /*USEI CLASS*/
+      margin: 0 auto;
+      width: 960px;
+}
+
+.places{
+      float:left;
+      width: 660px;
+}
+
+article{ /*Classe .place*/
+   background-color: #FFF;
+   border-color: #CCC #999 #999 #CCC;
+   border: 1px solid #CCC;
+   margin-bottom: 20px;
+   padding: 10px;   
+}
+
+article h2{ /*Muda o espaçamento dos subtitulos h2 e insere tracejado verde..*/
+border-bottom: 1px dashed #7E9F19; /* USAMOS O DASHED AO INVÉS DO SOLID PARA ASSIM CRIAR UMA BORDA TRACEJADA..*/
+margin: 0;
+}
+
+article a{ /*Muda o estilo dos links externos*/
+      color: #2C88A7;
+      font-weight: bold;
+}
+
+h1 a:hover{ /* Adiciona a funcionalidade de preencher o título de verde ao posicionar o cursor sob ele*/
+      background-color: #7E9F19;
+      color: #FFF;
+}
+
+h1 a{
+      color: #7E9F19;
+      text-decoration: none;/*Retira o sublinhado dos links<a>*/
+}
+
+#primeiroP{ /*USEI ID (usar #), apenas um teste de uso de ID*/
+      color:black;
+}
+
+/*
+.place img{ //Faria o que fizemos com o redimensionaImagem porem fora da tag img usando um class=""...
+      border: 1px solid #7E9F19;
+      float: left;
+      margin: 10px 10px 0 0;
+      padding: 2px;
+}
+*/
+
+.redimensionaImagem{ /*Redimensionei o tamanho da imagem para tamanho do h2/div*/
+      /*height:156px;
+      width:156px;*/ /*Trechos comentados <^ são Exemplos do livro*/
+      border: 1px solid #7E9F19; /*Borda tracejada*/
+      width: 20%;
+      float: right;
+      margin: 10px 10px 0 0;
+      padding: 2px;
+}
+
+.clear{
+      clear: both;
+}
+
+footer{
+      font-size: 12px;
+      text-align: center;
+}
+
+aside{ /*Barra lateral*/
+      background-color: #FFFBE4;
+      border: 1px solid #C9BC8F;
+      float: right;
+      padding: 10px;
+      width: 260px;
+}
+
+aside h3{
+      font-size: 14px;
+      margin-top: 0;
+}
+
+aside ol{
+      font-size: 12px;
+}
